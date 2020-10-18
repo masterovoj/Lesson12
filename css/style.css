@@ -329,6 +329,10 @@
   background: #F2F2F2;
 }
 
+.features__container {
+  padding-bottom: 70px;
+}
+
 .features__title {
   padding-top: 47px;
   font-family: Gilroy;
@@ -385,7 +389,6 @@
 
 .service__container {
   margin: 0px auto;
-  padding-top: 30px;
 }
 
 .service__item {
@@ -403,6 +406,7 @@
 }
 
 .service__image {
+  margin-top: 10px;
   display: inline-block;
   width: 98px;
   height: 98px;
@@ -444,4 +448,70 @@
   line-height: 25px;
   text-align: center;
   color: #333333;
+}
+
+.training__container {
+  margin-top: 70px;
+}
+
+.training__title {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  color: #333333;
+}
+
+.training__section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.training__item {
+  display: inline-block;
+  width: 100%;
+  max-width: 265px;
+  vertical-align: top;
+  margin-right: 20px;
+  padding: 25px;
+}
+
+.training__image {
+  text-align: center;
+}
+
+.training__name {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  color: #333333;
+}
+
+.training__group {
+  display: inline-block;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #53B43B;
+  padding-left: 25px;
+  background: url("../img/check.png") 0px 2px no-repeat;
+}
+
+.training__price {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #333333;
+  margin-top: 30px;
 }
